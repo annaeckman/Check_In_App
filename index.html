@@ -7,10 +7,46 @@
   </head>
   <body class="page">
     <div>
-      <header>
-        <p class="date"></p>
-        <p class="time"></p>
+      <header class="header">
+        <div class="header__content">
+          <p class="header__date"></p>
+          <p class="header__time"></p>
+          <!--maybe we'd want to add a logo either here or in the footer?-->
+        </div>
       </header>
     </div>
+    <main class="content">
+      <section class="landing__page">
+        <div class="landing__page-container">
+          <h1 class="landing__title">Welcome Name!</h1>
+          <img
+            class="landing__image"
+            src="./images/png-clipart-two-theater-masks-theatre-of-ancient-greece-mask-cinema-theatre-mask-angle-face.png"
+            alt="A happy and sad theater mask, also known as Comedy and Tragedy"
+          />
+          <button class="landing__button"></button>
+        </div>
+      </section>
+      <section class="question__page">
+        <div class="question__page-container">
+          <h2 class="question__question-title">How are you feeling today?</h2>
+          <p class="question__directions">
+            Please rate how you are feeling today on a scale from 1 to 10, with
+            1 being "feeling low" and 10 being "doing great!"
+          </p>
+          <button class="question__button" id="1"></button>
+          <button class="question__button" id="2"></button>
+          <button class="question__button" id="3"></button>
+          <button class="question__button" id="4"></button>
+          <button class="question__button" id="5"></button>
+          <button class="question__button" id="6"></button>
+          <button class="question__button" id="7"></button>
+          <button class="question__button" id="8"></button>
+          <button class="question__button" id="9"></button>
+          <button class="question__button" id="10"></button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">© 2024 Check-In App</footer>
   </body>
 </html>
