@@ -59,3 +59,33 @@
   width: 130px;
   margin: 0 auto;
 }
+
+.question__page {
+  margin: 200px 0 400px;
+}
+
+.question__question-title {
+  margin-bottom: 40px;
+}
+
+.question__directions {
+}
+
+.question__button-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.question__button {
+  padding: 0;
+  background-color: #00acee;
+  height: 18px;
+  width: 18px;
+  font-size: 12px;
+}
+
+.footer {
+  margin: 0 10px 30px;
+}
