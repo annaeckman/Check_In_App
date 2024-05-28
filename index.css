@@ -1,0 +1,40 @@
+.page {
+  max-width: 320px;
+  background-color: #d9d9d9;
+  margin: auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  /* need to download and upload fonts for Lato */
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Header Block */
+
+.header {
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__date {
+}
+
+.header__time {
+}
+
+/* Landing Page Block */
+
+.landing__page {
+}
+
+.landing__title {
+  margin: auto;
+  max-width: 150px;
+}
+
+.landing__image {
+  height: 20px;
+  width: 20px;
+}
