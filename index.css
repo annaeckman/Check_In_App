@@ -65,7 +65,7 @@
 }
 
 .question__question-title {
-  margin-bottom: 40px;
+  margin: 0 30px 40px;
 }
 
 .question__directions {
@@ -84,6 +84,13 @@
   height: 18px;
   width: 18px;
   font-size: 12px;
+}
+
+.question__text-field {
+  padding: 10px 5px 150px;
+  border: none;
+  width: 100%;
+  text-wrap: wrap;
 }
 
 .footer {
